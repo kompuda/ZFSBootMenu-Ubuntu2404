@@ -146,17 +146,17 @@ passwd
 cat <<EOF > /etc/apt/sources.list
 # Uncomment the deb-src entries if you need source packages
 
-deb http://archive.ubuntu.com/ubuntu/ noble main restricted universe multiverse
-# deb-src http://archive.ubuntu.com/ubuntu/ noble main restricted universe multiverse
+deb http://us.archive.ubuntu.com/ubuntu/ noble main universe multiverse restricted 
+# deb-src http://us.archive.ubuntu.com/ubuntu/ noble main universe multiverse restricted
 
-deb http://archive.ubuntu.com/ubuntu/ noble-updates main restricted universe multiverse
-# deb-src http://archive.ubuntu.com/ubuntu/ noble-updates main restricted universe multiverse
+deb http://us.archive.ubuntu.com/ubuntu/ noble-updates main universe multiverse restricted
+# deb-src http://us.archive.ubuntu.com/ubuntu/ noble-updates main universe multiverse restricted
 
-deb http://archive.ubuntu.com/ubuntu/ noble-security main restricted universe multiverse
-# deb-src http://archive.ubuntu.com/ubuntu/ noble-security main restricted universe multiverse
+deb http://us.archive.ubuntu.com/ubuntu/ noble-security main universe multiverse restricted
+# deb-src http://us.archive.ubuntu.com/ubuntu/ noble-security main universe multiverse restricted
 
-deb http://archive.ubuntu.com/ubuntu/ noble-backports main restricted universe multiverse
-# deb-src http://archive.ubuntu.com/ubuntu/ noble-backports main restricted universe multiverse
+deb http://us.archive.ubuntu.com/ubuntu/ noble-backports main universe multiverse restricted
+# deb-src http://us.archive.ubuntu.com/ubuntu/ noble-backports main universe multiverse restricted
 EOF
 ```
 ```
